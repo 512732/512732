@@ -260,5 +260,7 @@ async def _eval(ctx, *, body: str):
         else:
             await ctx.send(f'```py\n{value}{ret}\n```')
 
-
-bot.run(process.env.BOT_TOKEN)
+            
+ if not os.environ.get('TOKEN'):
+    print("no token found!")
+bot.run(os.environ.get('TOKEN').strip('"'))
