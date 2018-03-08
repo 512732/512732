@@ -3,7 +3,6 @@ git+https://github.com/Rapptz/discord.py@rewrite#egg=discord.py[voice]
 Pillow>=4.0.x
 psutil
 youtube_dl
-python_dateutil
 humanize
 async==0.6.2
 async-timeout==2.0.0
@@ -48,4 +47,3 @@ Voice==0.1.0
 wcwidth==0.1.7
 websockets==3.4
 yarl==0.16.0
-youtube-dl==2017.12.14
