@@ -1,5 +1,6 @@
 aiohttp>=2.0.6
 git+https://github.com/Rapptz/discord.py@rewrite#egg=discord.py[voice]
+discord.py>=1.0.0.a1340
 Pillow>=4.0.x
 psutil
 youtube_dl
