@@ -6,9 +6,6 @@ youtube_dl
 beautifulsoup4
 python_dateutil
 humanize
-textwrap
-time
 json
 io
 contextlib
-traceback
