@@ -6,6 +6,5 @@ youtube_dl
 beautifulsoup4
 python_dateutil
 humanize
-json
 io
 contextlib
