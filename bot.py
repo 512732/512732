@@ -16,10 +16,6 @@ from contextlib import redirect_stdout
 import io
 import json
 
-
-with open("token.txt", 'r') as f:
-    token = f.read().strip('\n')
-
 def get_prefix(bot, message):
     prefixes = ['s.', 'S.']
 
@@ -265,4 +261,4 @@ async def _eval(ctx, *, body: str):
             await ctx.send(f'```py\n{value}{ret}\n```')
 
 
-bot.run(token)
+bot.run(process.env.BOT_TOKEN)
